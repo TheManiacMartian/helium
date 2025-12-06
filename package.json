@@ -1,0 +1,20 @@
+{
+    "name": "com.martian.helium",
+    "version": "1.0.0",
+    "displayName": "Helium",
+    "description": " A node-based editor that can create scenes of dialogue with synced animations, that can have events that react to different occurrences in the world. This tool is good for setting up sequenced tutorials or interactive scenes, as well as creating long dialogue scenes between characters. ",
+    "unity": "2022.1",
+    "dependencies": {
+        "com.unity.graphtoolkit": "com.unity.graphtoolkit"
+    },
+    "keywords": [
+        "cutscene",
+        "node",
+        "dialogue"
+        ],
+        "author": {
+        "name": "TheManiacMartian",
+        "url": "https://www.youtube.com/@themaniacmartian4264"
+        }
+  }
+  
