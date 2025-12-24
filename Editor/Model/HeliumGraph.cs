@@ -7,6 +7,9 @@ using System.Linq;
 
 namespace Martian.Helium.Editor
 {
+    /// <summary>
+    /// This graph essentially stores the nodes needed to create a HeliumRuntimeGraph, which is what actually runs in game.
+    /// </summary>
     [Graph(ASSET_EXTENSION)]
     [Serializable]
     internal class HeliumGraph : Graph

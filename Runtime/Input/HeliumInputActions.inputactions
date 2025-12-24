@@ -1,0 +1,69 @@
+{
+    "version": 1,
+    "name": "HeliumInputActions",
+    "maps": [
+        {
+            "name": "Helium",
+            "id": "d4b18f64-2c8d-4878-8a27-b4b947af7194",
+            "actions": [
+                {
+                    "name": "Next",
+                    "type": "Button",
+                    "id": "8f2b73f9-7e90-405d-b8b0-b1ad3449054a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fea1bd8e-afea-4240-b78b-41509d577532",
+                    "path": "<Gamepad>/{Forward}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0beeed39-69fa-4643-9892-b77f0cbfe39e",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
