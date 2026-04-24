@@ -75,7 +75,7 @@ namespace Martian.Helium
             if (!IsRunning) { return; }
 
             IsRunning = false;
-            OnGraphComplete.Invoke();
+            OnGraphComplete?.Invoke();
 
             // disable graph input
             Input.DisableInput();
@@ -101,7 +101,7 @@ namespace Martian.Helium
             Input.DisableInput();
 
             IsRunning = false;
-            OnGraphComplete.Invoke();
+            OnGraphComplete?.Invoke();
 
             Debug.Log("Helium Graph Complete!");
 
@@ -110,7 +110,7 @@ namespace Martian.Helium
         private async Awaitable PlayGraph(HeliumRuntimeGraph graph, CancellationToken token)
         {
             IsRunning = true;
-            OnGraphStarted.Invoke();
+            OnGraphStarted?.Invoke();
             Debug.Log("Helium Graph Started!");
 
             // enable the input for the graph
